@@ -5,11 +5,11 @@ variable "region" {
   default     = "eu-west-2"
 }
 
-# variable "profile" {
-#   description = "AWS profile"
-#   type        = string
-#   default     = "ten10"
-# }
+variable "profile" {
+  description = "AWS profile"
+  type        = string
+  default     = "default"
+}
 
 variable "docker_image" {
   description = "Docker image for the application"
